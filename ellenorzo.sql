@@ -146,6 +146,13 @@ COMMIT;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 
+SELECT * FROM `ellenorzo` WHERE `tantargy_neve` LIKE 'magyar';
+SELECT * FROM `ellenorzo` WHERE `tantargy_neve` LIKE 'matek';
+SELECT * FROM `ellenorzo` WHERE tantargy_neve LIKE 'm%';
+SELECT * FROM `ellenorzo` WHERE tantargy_neve LIKE '%o%';
+
+
+
 A teljes tábla adatainak lekérdezése:
 	SELECT * FROM "ellenorzo" WHERE 1
 	SELECT * FROM "ellenorzo"
